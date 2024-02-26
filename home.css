@@ -1,18 +1,22 @@
 body{
-  /* background-color: rgb(248, 249, 250); */
+  background-color: white;
 }
 header{
   display: flex;
   align-items: center;
-  padding: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  width: 96%;
 }
 #head{
   display: flex;
   list-style: none;
-  margin-left: 1rem;
+  margin-left: 5%;
 }
 #headl{
-  margin-left: 13%;
+  margin-left: 12%;
   }
   #headl:hover{
     color: orangered;
@@ -22,7 +26,7 @@ header{
     text-decoration: underline;
   }
 #logo{
-  margin-right: 28%;
+  margin-right: 25%;
 }
 #circle{
   background-color: orangered;
@@ -41,14 +45,16 @@ header{
   background-color: blueviolet;
 }
 #main{
-  width: 81rem;
-  height: 500px;
+  width: 98%;
+  height: 30rem;
   padding: 0%;
 }
 .div1{
   position: relative;
   text-align: center;
   color: white;
+  width: 98%;
+  height: 32rem;
 }
 #Imagetext{
   position: absolute;
@@ -77,10 +83,6 @@ header{
   font-weight: 700;
   background-color: blueviolet;
   transform: scale(2.1);
-  /* border: 1px;
-  /* padding: 15%;
-  padding-left: 45%;
-  padding-right: 45%; */ */
 }
 .div2{
   display: flex;
